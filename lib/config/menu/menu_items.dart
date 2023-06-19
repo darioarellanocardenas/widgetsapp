@@ -44,4 +44,9 @@ const appMenuItems = <MenuItem>[
       subTitle: 'Controles de checkbox',
       link: '/ui-controls',
       icon: Icons.upcoming),
+  MenuItem(
+      title: 'Tutorial',
+      subTitle: 'Tutorial',
+      link: '/tutorial',
+      icon: Icons.turned_in_not),
 ];
