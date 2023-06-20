@@ -15,6 +15,11 @@ class MenuItem {
 
 const appMenuItems = <MenuItem>[
   MenuItem(
+      title: 'Contador de Clicks',
+      subTitle: 'Contador',
+      link: '/counter',
+      icon: Icons.playlist_add),
+  MenuItem(
       title: 'Botones',
       subTitle: 'Varios botones en Flutter',
       link: '/buttons',
@@ -54,4 +59,9 @@ const appMenuItems = <MenuItem>[
       subTitle: 'Inifnito',
       link: '/infinite',
       icon: Icons.list_alt_sharp),
+  MenuItem(
+      title: 'Theme Changer',
+      subTitle: 'Selecciona el tema',
+      link: '/theme-changer',
+      icon: Icons.color_lens_outlined),
 ];
